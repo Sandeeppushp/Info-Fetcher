@@ -1,3 +1,6 @@
+# This may not work directly because of encoding, Either try to install python on your pc and run it through IDLE
+# or using python create a exe file using PIP and then run it.
+
 import os
 import sys
 import fileinput
@@ -63,19 +66,19 @@ def driveD():
 	f1 = open('basic_info/D.txt', 'r')
 	f2 = open('basic_info/temp.txt', 'w')
 	for line in f1:
-	    f2.write(line.replace('ÃÄÄÄ', ''))
+	    f2.write(line.replace('ÃƒÃ„Ã„Ã„', ''))
 	f1 = open('basic_info/temp.txt', 'r')
 	f2 = open('basic_info/D.txt', 'w')
 	for line in f1:
-	    f2.write(line.replace('ÀÄÄÄ', ''))
+	    f2.write(line.replace('Ã€Ã„Ã„Ã„', ''))
 	f1 = open('basic_info/D.txt', 'r')
 	f2 = open('basic_info/temp.txt', 'w')
 	for line in f1:
-	    f2.write(line.replace('³', '.'))
+	    f2.write(line.replace('Â³', '.'))
 	f1 = open('basic_info/temp.txt', 'r')
 	f2 = open('basic_info/D.txt', 'w')
 	for line in f1:
-	    f2.write(line.replace('³', '.'))
+	    f2.write(line.replace('Â³', '.'))
 	f1.close()
 	f2.close()
 	os.remove('basic_info/temp.txt')
@@ -85,19 +88,19 @@ def driveE():
 	f1 = open('basic_info/E.txt', 'r')
 	f2 = open('basic_info/temp2.txt', 'w')
 	for line in f1:
-	    f2.write(line.replace('ÃÄÄÄ', ''))
+	    f2.write(line.replace('ÃƒÃ„Ã„Ã„', ''))
 	f1 = open('basic_info/temp2.txt', 'r')
 	f2 = open('basic_info/E.txt', 'w')
 	for line in f1:
-	    f2.write(line.replace('ÀÄÄÄ', ''))
+	    f2.write(line.replace('Ã€Ã„Ã„Ã„', ''))
 	f1 = open('basic_info/E.txt', 'r')
 	f2 = open('basic_info/temp2.txt', 'w')
 	for line in f1:
-	    f2.write(line.replace('³', '.'))
+	    f2.write(line.replace('Â³', '.'))
 	f1 = open('basic_info/temp2.txt', 'r')
 	f2 = open('basic_info/E.txt', 'w')
 	for line in f1:
-	    f2.write(line.replace('³', '.'))
+	    f2.write(line.replace('Â³', '.'))
 	f1.close()
 	f2.close()
 	os.remove('basic_info/temp2.txt')
@@ -107,19 +110,19 @@ def driveF():
 	f1 = open('basic_info/F.txt', 'r')
 	f2 = open('basic_info/temp3.txt', 'w')
 	for line in f1:
-	    f2.write(line.replace('ÃÄÄÄ', ''))
+	    f2.write(line.replace('ÃƒÃ„Ã„Ã„', ''))
 	f1 = open('basic_info/temp3.txt', 'r')
 	f2 = open('basic_info/F.txt', 'w')
 	for line in f1:
-	    f2.write(line.replace('ÀÄÄÄ', ''))
+	    f2.write(line.replace('Ã€Ã„Ã„Ã„', ''))
 	f1 = open('basic_info/F.txt', 'r')
 	f2 = open('basic_info/temp3.txt', 'w')
 	for line in f1:
-	    f2.write(line.replace('³', '.'))
+	    f2.write(line.replace('Â³', '.'))
 	f1 = open('basic_info/temp3.txt', 'r')
 	f2 = open('basic_info/F.txt', 'w')
 	for line in f1:
-	    f2.write(line.replace('³', '.'))
+	    f2.write(line.replace('Â³', '.'))
 	f1.close()
 	f2.close()
 	os.remove('basic_info/temp3.txt')
@@ -129,19 +132,19 @@ def driveG():
 	f1 = open('basic_info/G.txt', 'r')
 	f2 = open('basic_info/temp4.txt', 'w')
 	for line in f1:
-	    f2.write(line.replace('ÃÄÄÄ', ''))
+	    f2.write(line.replace('ÃƒÃ„Ã„Ã„', ''))
 	f1 = open('basic_info/temp4.txt', 'r')
 	f2 = open('basic_info/G.txt', 'w')
 	for line in f1:
-	    f2.write(line.replace('ÀÄÄÄ', ''))
+	    f2.write(line.replace('Ã€Ã„Ã„Ã„', ''))
 	f1 = open('basic_info/G.txt', 'r')
 	f2 = open('basic_info/temp4.txt', 'w')
 	for line in f1:
-	    f2.write(line.replace('³', '.'))
+	    f2.write(line.replace('Â³', '.'))
 	f1 = open('basic_info/temp4.txt', 'r')
 	f2 = open('basic_info/G.txt', 'w')
 	for line in f1:
-	    f2.write(line.replace('³', '.'))
+	    f2.write(line.replace('Â³', '.'))
 	f1.close()
 	f2.close()
 	os.remove('basic_info/temp4.txt')
