@@ -104,7 +104,7 @@ def func4(abcd):
     os.system('tree G: /A /F > detailed_info/G_drive.txt')
 
 
-def run():
+def run():			#using for chek weather task is compleate or not
 	if len(abcd)==4:
 		input('\nYour Information Saved Successfully in detailed_info Folder\n\n\n\nPress Enter to close program...')
 
